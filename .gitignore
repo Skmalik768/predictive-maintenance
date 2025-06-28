@@ -1,0 +1,26 @@
+# Ignore virtual environments
+myenv/
+env/
+venv/
+.venv/
+
+# Ignore Python cache and logs
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Ignore model binaries and large files
+*.pkl
+*.joblib
+*.h5
+*.dll
+
+# Ignore datasets if not needed
+*.csv
+*.xlsx
+
+# Ignore editor/project folders
+.vscode/
+.idea/
